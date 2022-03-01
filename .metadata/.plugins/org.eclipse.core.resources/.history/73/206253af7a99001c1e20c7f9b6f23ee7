@@ -1,0 +1,39 @@
+package Ensyu3_18;
+
+import java.util.Scanner;
+
+public class Ensyu3_18 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner stdInt = new Scanner(System.in);
+		System.out.println("1月～12月までの値を入力してください：");
+		int monthNumber = stdInt.nextInt();
+		switch(monthNumber){
+			case 12:
+			case 1:
+			case 2:
+				System.out.println("冬");
+			break;
+			case 3:
+			case 4:
+			case 5:
+				System.out.println("春");
+			break;
+			case 6:
+			case 7:
+			case 8:
+				System.out.println("夏");
+			break;
+			case 9:
+			case 10:
+			case 11:
+				System.out.println("秋");
+			break;
+			default:
+				System.out.println("範囲外の値が入力されました");
+			break;
+		}
+	}
+
+}

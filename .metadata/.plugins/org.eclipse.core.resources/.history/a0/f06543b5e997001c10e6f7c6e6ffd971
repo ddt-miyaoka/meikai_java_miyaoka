@@ -1,0 +1,15 @@
+package Ensyu3_14;
+
+import java.util.Scanner;
+
+public class Ensyu3_14 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner stdInt = new Scanner(System.in);
+		int firstNumber = stdInt.nextInt();
+		int secondNumber = stdInt.nextInt();
+
+	}
+
+}

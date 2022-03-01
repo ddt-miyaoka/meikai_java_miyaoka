@@ -1,0 +1,58 @@
+package Ensyu3_13;
+
+import java.util.Scanner;
+
+public class Ensyu3_13 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner stdInt = new Scanner(System.in);
+		System.out.println("");
+		int firstNumber = stdInt.nextInt();
+		System.out.println("");
+		int secondNumber = stdInt.nextInt();
+		System.out.println("");
+		int thirdNumber = stdInt.nextInt();
+		int maxNumber = firstNumber;
+		int minNumber = secondNumber;
+
+		if(maxNumber < secondNumber){
+			maxNumber= secondNumber;
+		}
+		if(maxNumber < thirdNumber){
+			maxNumber= thirdNumber;
+		}
+
+		if(minNumber > firstNumber){
+			minNumber = firstNumber;
+		}
+		if(minNumber > thirdNumber){
+			minNumber = thirdNumber;
+		}
+
+
+
+		//中央値の値の初期値として一つ目の値を代入
+		int mediumNumber = firstNumber;
+		//一つ目と二つ目の値を比べる
+		if (firstNumber >= secondNumber){
+			//二つ目の値が三つ目の値よりも大きく、さらに三つ目の値が一つ目の値よりも小さければ
+			if(secondNumber > thirdNumber && thirdNumber < firstNumber){
+				//二つ目の値は一つ目の値より小さく三つ目の値より大きいため中央値となる
+				mediumNumber = secondNumber;
+			//もし三つ目の値が二つ目よりは大きく、一つ目より小さければ
+			}else if(secondNumber < thirdNumber && thirdNumber < firstNumber){
+				//三つ目の値は一つ目より小さく二つ目より大きいため中央値となる
+				mediumNumber = thirdNumber;
+			}
+		//一つ目の値と三つ目の値を比べる
+		}else if(firstNumber >= thirdNumber){
+			//三つ目の値が二つ目の値よりも大きければ
+			if(thirdNumber > secondNumber){
+				//三つ目の値は一つ目の値より小さく二つ目の値より大きいため中央値となる
+				mediumNumber = thirdNumber;
+			}
+		}
+	}
+
+}

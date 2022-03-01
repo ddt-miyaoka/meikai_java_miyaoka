@@ -1,0 +1,30 @@
+package Ensyu3_14;
+
+import java.util.Scanner;
+
+public class Ensyu3_14 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner stdInt = new Scanner(System.in);
+		int firstNumber = stdInt.nextInt();
+		int secondNumber = stdInt.nextInt();
+		int maxNumber;
+		int minNumber;
+
+		if(firstNumber > secondNumber){
+			maxNumber = firstNumber;
+			minNumber = secondNumber;
+			System.out.println("大きい値は：" + firstNumber);
+			System.out.println("小さい値は："+ secondNumber);
+		}else if(firstNumber < secondNumber){
+			maxNumber = secondNumber;
+			minNumber = firstNumber;
+			System.out.println("大きい値は：" + secondNumber);
+			System.out.println("小さい値は："+ firstNumber);
+		}else if(firstNumber == secondNumber){
+			System.out.println("二つの値は同じです");
+		}
+	}
+
+}

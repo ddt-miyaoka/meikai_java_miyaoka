@@ -1,0 +1,23 @@
+package Ensyu3_16;
+
+import java.util.Scanner;
+
+public class Ensyu3_16 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner stdInt = new Scanner(System.in);
+		int firstNumber = stdInt.nextInt();
+		int secondNumber = stdInt.nextInt();
+
+		if(firstNumber > secondNumber){
+			int changeNumber = firstNumber;
+			firstNumber = secondNumber;
+			secondNumber = changeNumber;
+		}
+		System.out.println("小さい順に値を表示する");
+		System.out.println(firstNumber);
+		System.out.println(secondNumber);
+	}
+
+}
