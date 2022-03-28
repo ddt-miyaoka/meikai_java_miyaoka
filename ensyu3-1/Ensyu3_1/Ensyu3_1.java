@@ -10,14 +10,14 @@ public class Ensyu3_1 {
 		//キーボードからの値を代入する
 		int firstNumber = stdIn.nextInt();
 		//入力された値が正の値かどうかを判定する
-		if(firstNumber < 0)
+		if(firstNumber < 0){
 			//もしマイナスであったのならば-1を乗算した値を表示する
 			System.out.println("その絶対値は"+ firstNumber * -1 +"です");
 		//入力された値が整数であればそのまま表示する
-		else
+		}else{
 		//絶対値を表示する
 		System.out.println("その絶対値は"+ firstNumber+"です");
-
+		}
 	}
 
 }
