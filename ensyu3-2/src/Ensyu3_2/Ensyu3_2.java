@@ -16,7 +16,7 @@ public class Ensyu3_2 {
 		System.out.println("整数B：");
 		//入力した値を代入する
 		int secondNumber = stdIn.nextInt();
-		//もしfirstNumer割るsecondNumberが0であれば
+		//もしfirstNumer割るsecondNumberの余りが0であれば
 		if(firstNumber % secondNumber ==0){
 			//約数ということになるため約数ですと表示する
 			System.out.println(secondNumber + "は" + firstNumber + "の約数です");

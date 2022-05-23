@@ -26,10 +26,6 @@ public class Ensyu3_11 {
 		}else if(firstNumber < secondNumber){
 			//二つ目の値マイナス一つ目の値が二つの差となる
 			differenceNumber = secondNumber - firstNumber;
-		//もし二つの数字の値が同じであれば
-		}else if (firstNumber == secondNumber){
-			//二つの数字の差は0となる
-			differenceNumber  = 0;
 		}
 		//二つの数字の値の差が10以下かどうかを確認
 		if (differenceNumber <= 10){

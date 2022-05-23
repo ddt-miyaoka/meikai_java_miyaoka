@@ -20,8 +20,9 @@ public class Ensyu3_16 {
 		if (maxNumber < secondNumber){
 			//一番大きい値を更新する
 			maxNumber = secondNumber;
+		}
 		//数値を確認し大きいかを判定
-		}else if(maxNumber < thirdNumber){
+		if(maxNumber < thirdNumber){
 			//条件に合えば一番大きい値を更新する
 			maxNumber = thirdNumber;
 		}
@@ -32,8 +33,9 @@ public class Ensyu3_16 {
 		if(minNumber > firstNumber){
 			//一番小さい値を更新
 			minNumber = firstNumber;
+		}
 		//数値を確認し小さいかを判定
-		}else if(minNumber > thirdNumber){
+		if(minNumber > thirdNumber){
 			//条件に合えば一番小さい値を更新する
 			minNumber = thirdNumber;
 		}

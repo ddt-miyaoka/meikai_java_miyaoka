@@ -13,15 +13,18 @@ public class Ensyu3_17 {
 		//ランダムで取得した値を用いてSwitch文を実行
 		switch(switchNumber){
 		//0の場合はグーを表示
-		case 0: System.out.println("グー");
+		case 0:
+			System.out.println("グー");
 		//Switch文を抜ける
 		break;
 		//1の場合はチョキを表示
-		case 1: System.out.println("チョキ");
+		case 1:
+			System.out.println("チョキ");
 		//Switch文を抜ける
 		break;
 		//2の場合はパーを表示
-		case 2: System.out.println("パー");
+		case 2:
+			System.out.println("パー");
 		//Switch文を抜ける
 		break;
 		}
