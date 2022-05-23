@@ -27,6 +27,9 @@ public class Ensyu3_8 {
 			//条件に合致した場合優と表示する
 			System.out.println("優");
 		}
+		}else if (checkNumber > 100){
+			//成績の判定の場合100が上限であり、それ以上の値を入力した場合は範囲外として扱う
+			System.out.println("範囲外の値です");
+		}
 	}
-
 }
