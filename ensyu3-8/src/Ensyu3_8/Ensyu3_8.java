@@ -31,5 +31,9 @@ public class Ensyu3_8 {
 			//成績の判定の場合100が上限であり、それ以上の値を入力した場合は範囲外として扱う
 			System.out.println("範囲外の値です");
 		}
+		}else if (checkNumber > 100){
+			//成績の判定の場合100が上限であり、それ以上の値を入力した場合は範囲外として扱う
+			System.out.println("範囲外の値です");
+		}
 	}
 }
