@@ -8,6 +8,7 @@ public class Ensyu3_11 {
 	public static void main(String[] args) {
 		//キーボードから値を入力するための宣言
 		Scanner stdInt = new Scanner(System.in);
+
 		//一つ目の値の入力を促す
 		System.out.println("整数A：");
 		//一つ目の値をキーボードから入力する
@@ -18,6 +19,7 @@ public class Ensyu3_11 {
 		int secondNumber = stdInt.nextInt();
 		//二つの整数の差分を代入する変数を初期化
 		int differenceNumber = 0;
+
 		//もし一つ目の値のほうが二つ目の値よりも大きければ
 		if (firstNumber > secondNumber){
 			//一つ目の値マイナス二つ目の値が二つの差となる
@@ -27,6 +29,7 @@ public class Ensyu3_11 {
 			//二つ目の値マイナス一つ目の値が二つの差となる
 			differenceNumber = secondNumber - firstNumber;
 		}
+
 		//二つの数字の値の差が10以下かどうかを確認
 		if (differenceNumber <= 10){
 			//10以下だと表示する
@@ -37,5 +40,4 @@ public class Ensyu3_11 {
 			System.out.println("それらの差は11以上です。");
 		}
 	}
-
 }
