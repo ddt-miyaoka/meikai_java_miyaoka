@@ -12,9 +12,9 @@ public class Ensyu4_11 {
 		//カウントダウン用の値をキーボードから入力する
 		int countNumber = stdInt.nextInt();
 		//カウントダウンが0になるまで数字を減らしながら繰り返し表示させる
-		for(int i = 0; i <= countNumber; countNumber--)
+		for(int i = 0; i <= countNumber; i++)
 			//カウントダウンの数字を表示させる
-			System.out.println(countNumber);
+			System.out.println(countNumber - i);
 	}
 
 }
